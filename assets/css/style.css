@@ -1,0 +1,65 @@
+
+        /* ENTIRE PAGE NEEDS TO BE CENTERED */
+
+
+body{
+    background-image: url("../images/crystalBackground.jpg");
+    background-size: cover;
+}
+
+
+h1{
+    color: antiquewhite;
+    border: dotted 5px;
+    font-style: bold;
+    text-align: center;
+}
+
+#instructions{
+    text-align: center;
+    width: 700px;
+}
+
+/* Do not understand why this expands the containers causing them to overlap */
+.container{
+    /* float: left; */
+}
+
+#given{
+    text-align: center;
+    /* needs to be moved down */
+    height: 150px;
+    width: 200px;
+}
+
+#points{
+    text-align: center;
+    /* needs to be moved down */
+    height: 150px;
+    width: 200px;
+}
+
+#stats{
+    text-align: center;
+    /* needs to be moved down */
+    height: 150px;
+    width: 200px;
+}
+
+.rupees{
+    height: 25px;
+    width: 25px;
+}
+
+#rupeeRow{
+    width: 800px;
+}
+
+#buttonReset{
+    text-align: center;
+    /* needs to be moved down */
+    height: 150px;
+    width: 200px;
+}
+
+
